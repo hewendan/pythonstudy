@@ -11,6 +11,7 @@ else:
     print(-x)
 print('\n\nhehe')
 print(r'\n\nhehe')
+
 str=b'ABC'.decode('ascii') #要把bytes变为str，就需要用decode()方法
 str1='ABC'.encode('ascii') #以Unicode表示的str通过encode()方法可以编码为指定的bytes
 print(str1)
