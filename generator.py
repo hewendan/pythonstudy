@@ -21,7 +21,7 @@ n=0;
 for t in triangles():
     print(t)
     n=n+1
-    if(n>1):#n>10
+    if(n>5):#n>10
         break
 def add(x,y,f):
     return f(x)+f(y)
