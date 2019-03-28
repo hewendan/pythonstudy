@@ -41,3 +41,4 @@ print(screen.resolution)
 screen.w=10
 screen.h=10
 print(screen.resolution)
+print(screen.__dict__)
